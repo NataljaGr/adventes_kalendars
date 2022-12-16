@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .kalendars{
+            background-color: antiquewhite;
+            width: 1500px;
+            height: 500px;
+            padding: 0px;
+        }
+        .diena{
+            background-color: rgb(218, 222, 230);
+            height: 120px;
+            width: 120px;
+            margin-left: 5px;
+            display:inline-block;
+            float: left;
+        }
+        .datums{
+            font-size:xx-small;
+            text-align: center;
+            font-weight:bold;
+            color: aliceblue;
+        }
+        .darbiba{
+            font-size:x-small;
+            text-align: center;
+            color: rgb(73, 100, 167);
+            background-color: azure;
+            opacity: 0.5;
+        }
+        .rinda{
+            clear: both;
+            float: left;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+        #diena1{
+            background-image: url("1.png");
+        }
+        #diena2{
+            background-image: url("2.jpg");
+        }
+        #diena3{
+            background-image: url("3.jpeg");
+
+        }
+        #diena4{
+            background-image: url("4.jpg");
+        }
+        #diena5{
+            background-image: url("5.jpg");
+        }
+
+        .bg1{
+            background-image: url("5.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div class="kalendars">
+        <div class="rinda">
+            <div class="diena" id="diena1">
+                <p class="datums">1.diena</p>
+                <p class="darbiba">Uzraksti apsveikumu saviem draugiem</p>
+            </div>
+            <div class="diena"  id="diena2">
+                <p class="datums">2.diena</p>
+                <p class="darbiba">Paskaties spogulī un pasmaidi sev</p>
+            </div>
+            <div class="diena" id="diena3">
+                <p class="datums">3.diena</p>
+                <p class="darbiba">Sasmīdini kādu</p>
+            </div>
+            <div class="diena" id="diena4">
+                <p class="datums">4.diena</p>
+                <p class="darbiba">Pasaki "paldies draugiem"</p>
+            </div>
+            <div class="diena" id="diena5">
+                <p class="datums">5.diena</p>
+                <p class="darbiba">Uzraksti apsveikumu saviem draugiem</p>
+            </div>
+        </div>   
+        <div class="rinda">
+            <div class="diena" id="diena1">
+                <p class="datums">1.diena</p>
+                <p class="darbiba">Uzraksti apsveikumu saviem draugiem</p>
+            </div>
+            <div class="diena"  id="diena2">
+                <p class="datums">2.diena</p>
+                <p class="darbiba">Paskaties spogulī un pasmaidi sev</p>
+            </div>
+            <div class="diena" id="diena3">
+                <p class="datums">3.diena</p>
+                <p class="darbiba">Sasmīdini kādu</p>
+            </div>
+            <div class="diena" id="diena4">
+                <p class="datums">4.diena</p>
+                <p class="darbiba">Pasaki "paldies draugiem"</p>
+            </div>
+            <div class="diena" id="diena5">
+                <p class="datums">5.diena</p>
+                <p class="darbiba">Uzraksti apsveikumu saviem draugiem</p>
+            </div>
+        </div> 
+        <div class="rinda">
+            <div class="diena bg1"></div>
+            <div class="diena"></div>
+            <div class="diena"></div>
+            <div class="diena"></div>
+            <div class="diena"></div>
+        </div>  
+        <div class="rinda">
+            <div class="diena"></div>
+            <div class="diena"></div>
+            <div class="diena"></div>
+            <div class="diena"></div>
+            <div class="diena"></div>
+        </div>   
+    </div>
+</body>
+</html>
